@@ -10,7 +10,7 @@ export const Ukol1 = () => {
       <h1>Úkol 1</h1>
       <label>
         Login:
-        <input type="text" />
+        <input onChange={(event) => setLogin(event.target.value)} type="text" />
       </label>
     </>
   );
